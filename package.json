@@ -4,9 +4,7 @@
   "description": "Typescript implementation of the kata \"Rental Move\"",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
-    "pretest": "npm run lint"
+    "test": "jest --watch"
   },
   "author": "",
   "license": "ISC",
